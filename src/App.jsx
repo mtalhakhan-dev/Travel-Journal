@@ -1,4 +1,4 @@
-import Header from "./components/Header.jsx";
+import Header from "./components/header.jsx";
 import Entry from "./components/entry.jsx";
 function App() {
   return (
