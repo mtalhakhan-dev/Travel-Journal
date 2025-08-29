@@ -41,7 +41,6 @@
 }
 
 .fuji {
-    height: 200px;
     width: 150px;
     object-fit: cover;
     border-radius: 10px;
@@ -83,24 +82,37 @@
     line-height: 1.4;
 }
 
-@media (max-width: 600px) and (max-height: 1000px) {
+@media (max-width: 600px) {
     .entry {
         align-items: center;
         text-align: center;
     }
 
+    .top>h3 {
+        font-size: small;
+    }
+
+    .top>img {
+        height: 15px;
+    }
     .fuji {
-        width: 35%;
+        height: 100%;
         max-width: 350px;
         height: auto;
     }
 
+
     .content {
         width: 100%;
+        font-size: small;
+    }
+
+    .content>h1 {
+        font-size: 20px;
     }
 
     .content>p {
-        text-align: left;
+        text-align: justify;
     }
 
 }
