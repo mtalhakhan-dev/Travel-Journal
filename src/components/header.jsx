@@ -4,7 +4,7 @@ export default function header() {
         <>
             <header className="header">
                 <img src={logo} className="logo" alt="globe" />
-                <h1>my travel journal.</h1>
+                <h1>MY TRAVEL JOURNAL</h1>
             </header>
         </>
     );
